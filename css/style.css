@@ -1,0 +1,33 @@
+/* Custom styles to enhance Bootstrap */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.progress {
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.progress-bar {
+    background-color: #007bff;
+    padding-left: 10px;
+    text-align: left;
+}
+
+section {
+    scroll-margin-top: 60px;
+}
+
+/* If you want to customize Bootstrap's default colors */
+:root {
+    --bs-primary: #007bff;  /* Change this to your preferred color */
+}
